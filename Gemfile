@@ -37,7 +37,6 @@ end
 group :development do
   gem 'capistrano-rails'
   gem 'capistrano-passenger'
-  gem 'capistrano-rbenv'
 
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
