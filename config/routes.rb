@@ -4,6 +4,11 @@ Rails.application.routes.draw do
 
   root 'home#index'
   
+  get 'about' => 'home#about' 
+  get 'contact' => 'home#contact'
+  get 'whimsy' => 'home#whimsy'
+
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

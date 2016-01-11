@@ -1,3 +1,55 @@
-// Place all the styles related to the home controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url(https://fonts.googleapis.com/css?family=IM+Fell+French+Canon);
+
+$exteriorBackground: #E4E6F1;
+
+body {
+  background: $exteriorBackground;
+}
+
+#container {
+  font-family: "IM Fell French Canon";
+  font-size: 18px;
+  margin: 20px auto;
+  width: 1000px;
+}
+
+.siteHeader {
+  height: 200px;
+  padding: 20px 0px;
+}
+
+.siteLogo {
+  display: inline-block;
+  height: 200px;
+  width: auto;
+}
+
+#fatCrow {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.siteHeaderButtons{
+  float: right;
+  img {
+    height: 200px;
+    width: auto;
+    margin: 0px 0px 0px 20px;
+  }
+}
+
+#mainContentContainer {
+  display: block;
+  background: white;
+  width: 100%;
+}
+
+#mainContent {
+  padding: 20px 40px;  
+}
+
+#footer {
+  font-size: 14px;  
+  padding: 20px;
+  text-align: right;
+}

@@ -1,0 +1,58 @@
+#resume {
+  margin: 0px 0px 0px -40px;
+}
+
+.resumeEducation {
+  td {
+    padding: 10px;
+  }
+}
+
+.resumeName {
+  font-size: 36px;
+  font-weight: bold;
+  padding: 20px 0px;
+}
+
+// Section heading
+.workExperience li{
+  font-size: 24px;
+  font-weight: bold; 
+  list-style: none;
+  padding: 10px 0px;
+}
+
+// Job
+.workExperience li ul li{
+  font-size: 24px;
+}
+
+// Job Title
+.workExperience li ul li ul li{
+  font-size: 22px;
+}
+
+// Job Achievements
+.workExperience li ul li ul li ul li{
+  font-size: 20px;
+  font-weight: normal;  
+  list-style: circle;
+  padding: 10px 0px;
+}
+
+
+// Section heading
+.awards li, .technology li, .education li{
+  font-size: 24px;
+  font-weight: bold; 
+  list-style: none;
+  padding: 10px 0px;
+}
+
+// Awards
+.awards li ul li, .technology li ul li, .education li ul li {
+  font-size: 20px;
+  font-weight: normal;  
+  list-style: circle;
+  padding: 10px 0px;
+}
