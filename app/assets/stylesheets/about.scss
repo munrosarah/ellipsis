@@ -1,58 +1,46 @@
 #resume {
-  margin: 0px 0px 0px -40px;
+  margin-left: -40px;
 }
 
-.resumeEducation {
-  td {
-    padding: 10px;
+.aboutNav {
+  font-size: 20px;
+}
+
+.resumeSectionHeading {
+  font-size: 24px;
+  font-weight: bold; 
+  list-style: none;
+  li {
+    margin-top: 30px;
   }
 }
 
-.resumeName {
-  font-size: 36px;
-  font-weight: bold;
-  padding: 20px 0px;
-}
-
-// Section heading
-.workExperience li{
-  font-size: 24px;
-  font-weight: bold; 
-  list-style: none;
-  padding: 10px 0px;
-}
-
-// Job
-.workExperience li ul li{
-  font-size: 24px;
-}
-
-// Job Title
-.workExperience li ul li ul li{
-  font-size: 22px;
-}
-
-// Job Achievements
-.workExperience li ul li ul li ul li{
+.resumeSectionHeading .resumeBullets {
   font-size: 20px;
   font-weight: normal;  
   list-style: circle;
-  padding: 10px 0px;
+  li {
+    margin-top: 10px;
+  }
 }
 
-
-// Section heading
-.awards li, .technology li, .education li{
-  font-size: 24px;
-  font-weight: bold; 
+.resumeSectionHeading .resumeSectionSubheading1 {
+  font-size: 22px;  
   list-style: none;
-  padding: 10px 0px;
+  li {
+    margin-top: 20px;
+  }
 }
 
-// Awards
-.awards li ul li, .technology li ul li, .education li ul li {
-  font-size: 20px;
-  font-weight: normal;  
-  list-style: circle;
-  padding: 10px 0px;
+.resumeSectionHeading .resumeSectionSubheading2 {
+  font-size: 20px;  
+  list-style: none;
+  li {
+    margin-top: 15px;
+  }
+}
+
+.siteTechnologies li {
+  font-size: 18px;
+  padding-top: 10px;
 }

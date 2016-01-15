@@ -13,11 +13,11 @@
             = image_tag "header/fatcrow_ellipsis.png", alt: "ellipsis etc", id: 'fatCrow'
         .siteHeaderButtons
           = link_to about_path do
-            = image_tag "header/about.png", alt: 'about'
+            - image_tag "header/about.png", alt: 'about'
           = link_to contact_path do
-            = image_tag "header/contact.png", alt: 'contact'
+            - image_tag "header/contact.png", alt: 'contact'
           = link_to whimsy_path do
-            = image_tag  "header/whimsy.png", alt: 'whimsy'
+            - image_tag "header/whimsy.png", alt: 'whimsy'
       #mainContentContainer
         = yield
       #footer

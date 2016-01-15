@@ -2,6 +2,16 @@
 
 $exteriorBackground: #E4E6F1;
 
+a:link {
+  color: #3D5175;
+  font-weight: bold;
+}
+
+a:visited {
+  color: #543D75;
+  font-weight: bold;
+}
+
 body {
   background: $exteriorBackground;
 }
@@ -10,23 +20,42 @@ body {
   font-family: "IM Fell French Canon";
   font-size: 18px;
   margin: 20px auto;
-  width: 1000px;
-}
-
-.siteHeader {
-  height: 200px;
-  padding: 20px 0px;
-}
-
-.siteLogo {
-  display: inline-block;
-  height: 200px;
-  width: auto;
+  width: 900px;
 }
 
 #fatCrow {
   max-height: 100%;
   max-width: 100%;
+}
+
+#footer {
+  font-size: 14px;  
+  padding: 20px;
+  text-align: right;
+}
+
+#mainContentContainer {
+  border-radius: 15px;
+  display: block;
+  background: white;
+  width: 100%;
+}
+
+#mainContent {
+  padding: 20px 40px;  
+}
+
+#profileImg img {
+  float: right;
+  padding: 20px 0px;
+  shape-outside: url(sarah_escher.png);
+  shape-image-threshold: 0.5;
+  shape-margin: 20px;
+}
+
+.siteHeader {
+  height: 200px;
+  padding: 20px 0px;
 }
 
 .siteHeaderButtons{
@@ -38,23 +67,9 @@ body {
   }
 }
 
-#mainContentContainer {
-  display: block;
-  background: white;
-  width: 100%;
+.siteLogo {
+  display: inline-block;
+  height: 200px;
+  width: auto;
 }
 
-#mainContent {
-  padding: 20px 40px;  
-}
-
-#footer {
-  font-size: 14px;  
-  padding: 20px;
-  text-align: right;
-}
-
-#profileImg img {
-  float: right;
-  padding: 0px 0px 0px 20px;
-}
