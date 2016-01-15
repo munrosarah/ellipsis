@@ -47,8 +47,8 @@ body {
 
 #profileImg img {
   float: right;
-  padding: 20px 0px;
-  shape-outside: url(sarah_escher.png);
+  margin: 20px 0px 20px 20px;
+  shape-outside: image-url("sarah_escher.png");
   shape-image-threshold: 0.5;
   shape-margin: 20px;
 }
