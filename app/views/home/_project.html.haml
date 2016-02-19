@@ -1,0 +1,7 @@
+%h3
+  = project[:name]
+= project[:description]  
+%ul
+  - project[:links].each do |name, title, link|
+    %li
+      #{ content_tag(:strong, name) }: #{ link_to(title, link) }

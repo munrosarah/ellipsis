@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   root 'home#index'
   
   get 'contact' => 'home#contact'
+  get 'code' => 'home#code'
   get 'whimsy' => 'home#whimsy'
 
   get 'about' => 'about#show'

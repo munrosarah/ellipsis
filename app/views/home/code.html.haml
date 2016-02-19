@@ -1,0 +1,18 @@
+#mainContent
+  %center
+    %h1
+      Code
+
+
+  .codeProjects
+    %h2
+      Professional Projects
+
+    - @projects.each do |project|
+      = render partial: 'project.html.haml', locals: { project: project }
+  
+  .codeProjects
+    %h2 
+      Personal Projects
+    - @code_samples.each do |project|
+      = render partial: 'project.html.haml', locals: { project: project }
