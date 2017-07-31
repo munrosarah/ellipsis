@@ -29,6 +29,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Passenger as the app server
 gem 'passenger'
 
+gem 'bootstrap'
 gem 'haml'
 
 group :development, :test do

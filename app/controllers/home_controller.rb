@@ -3,9 +3,11 @@ class HomeController < ApplicationController
   end
 
   def contact
+    @page_title = 'Contact'
   end 
 
   def code
+    @page_title = 'Code'
     @projects = [
       { 
         name: 'Goodreads on Kindle',
@@ -54,5 +56,9 @@ class HomeController < ApplicationController
            'https://github.com/munrosarah/dothatstuff']]
       }]
 
+  end
+
+  def whimsy
+    @page_title = "Whimsy"
   end
 end

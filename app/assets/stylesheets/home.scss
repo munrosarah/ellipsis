@@ -19,6 +19,14 @@ body {
 #container {
   font-family: "Crimson Text";
   font-size: 18px;
+}
+
+#navContainer {
+  margin: 20px auto;
+  width: 900px;
+}
+
+#mainContentContainer {
   margin: 20px auto;
   width: 900px;
 }
@@ -41,6 +49,12 @@ body {
   width: 100%;
 }
 
+#pageTitle {
+  float: right;
+  font-size: 28px;
+  padding: 20px;
+}
+
 #mainContent {
   padding: 20px 40px;  
 }
@@ -61,8 +75,11 @@ body {
   }
 }
 
+.leftColumn {
+  border-right: 1px solid;
+}
+
 .siteHeader {
-  height: 150px;
   padding: 20px 0px;
 }
 

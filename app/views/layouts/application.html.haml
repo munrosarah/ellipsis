@@ -6,21 +6,31 @@
     = javascript_include_tag "application"
     = csrf_meta_tags
   %body
-    #container 
-      .siteHeader
-        .siteLogo
-          = link_to root_path do
-            = image_tag "header/fatcrow_ellipsis.png", alt: "ellipsis etc", id: 'fatCrow'
-        .siteHeaderButtons
-          = link_to about_path do
-            - image_tag "header/about.png", alt: 'about'
-          = link_to code_path do
-            - image_tag "header/code.png", alt: 'code'
-          = link_to contact_path do
-            - image_tag "header/contact.png", alt: 'contact'
-          = link_to whimsy_path do
-            - image_tag "header/whimsy.png", alt: 'whimsy'
-      #mainContentContainer
-        = yield
-      #footer
-        ©#{Time.now.year} Sarah Munro, All Rights Reserved.
+    #container
+      .row
+        .col-md-8.offset-md-2
+          #navContainer
+            .siteHeader
+              .siteLogo
+                = link_to root_path do
+                  = image_tag "header/fatcrow_ellipsis.png", alt: "ellipsis etc", id: 'fatCrow'
+              .siteHeaderButtons
+                = link_to about_path do
+                  - image_tag "header/about.png", alt: 'about'
+                = link_to code_path do
+                  - image_tag "header/code.png", alt: 'code'
+                = link_to contact_path do
+                  - image_tag "header/contact.png", alt: 'contact'
+                = link_to whimsy_path do
+                  - image_tag "header/whimsy.png", alt: 'whimsy'
+      .row
+        .col-md-2.leftColumn
+          #pageTitle
+            = @page_title
+        .col-md-8
+          #mainContentContainer
+            = yield
+      .row
+        .col-md-8.offset-md-2
+          #footer
+            ©#{Time.now.year} Sarah Munro, All Rights Reserved.
